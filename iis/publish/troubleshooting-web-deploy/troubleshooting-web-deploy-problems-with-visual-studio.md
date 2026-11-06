@@ -51,8 +51,9 @@ Has the web management service been allowed through Windows Firewall? When you i
 
 Make sure one has added inbout rule at NSG/Firewall level to allow request for port 8172 as shown below at all the levels i.e VNET/Subnets/NIC
 
-Priority    Name        Port    Protocol    Source    Destination   Action
-100         Port_8172   Any     Any         Any       Any           Allow
+| Priority | Name | Port | Protocol | Source | Destination | Action |
+| :--: | :------: | :----: | :--: | :-: | :-:| :---: |
+| 100 | Port_8172 | Any | Any | Any | Any | Allow |
 
 **Is the service URL correct?**
 
